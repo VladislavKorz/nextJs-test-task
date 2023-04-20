@@ -6,27 +6,36 @@ import { faPlus, faCheck } from "@fortawesome/free-solid-svg-icons";
 const Product = ({ product, onAddToCart }) => {
     const { id, image, title, price } = product;
     const [addedToCart, setAddedToCart] = useState(false);
-
+    const [isButtonDisabled, setIsButtonDisabled] = useState(false);
+    
     const formattedPrice = new Intl.NumberFormat("ru-RU", {
         style: "currency",
         currency: "RUB"
     }).format(price);
 
-
     const handleAddToCart = () => {
         setAddedToCart(true);
         onAddToCart(product);
+        setIsButtonDisabled(true); 
     };
 
     return (
         <Col xs={6} md={4} lg={3}>
             <div className="position-relative mb-4">
                 <img src={`https://api.architektoria.ru${image}`} alt={title} width='100%' />
-                <Button className="position-absolute top-0 end-0 btn-light rounded-circle m-3" variant="primary" onClick={handleAddToCart}>
+                <Button
+                    className="position-absolute top-0 end-0 btn-light rounded-circle m-3"
+                    variant="primary"
+                    onClick={handleAddToCart}
+                    disabled={isButtonDisabled} 
+                >
                     <FontAwesomeIcon icon={addedToCart ? faCheck : faPlus} />
                 </Button>
                 <h5>{title}</h5>
-                <p><span className="text-danger">{formattedPrice}</span> <s className="text-secondary">{formattedPrice}</s></p>
+                <p>
+                    <span className="text-danger">{formattedPrice}</span>{" "}
+                    <s className="text-secondary">{formattedPrice}</s>
+                </p>
             </div>
         </Col>
     );

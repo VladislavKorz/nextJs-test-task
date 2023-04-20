@@ -5,15 +5,25 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import Product from "../components/Product";
 import fs from "fs";
 import path from "path";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const Main = ({ products }) => {
     const [cartItems, setCartItems] = useState([]); // Состояние для хранения добавленных товаров
     const [totalPrice, setTotalPrice] = useState(0); // Состояние для хранения суммы заказа
 
-    // Function to handle adding a product to the cart
     const handleAddToCart = (product) => {
-        setCartItems([...cartItems, product]); // Add product to cart items state
+        setCartItems([...cartItems, product]);
+        toast.success("Кровать добавлена с базовыми опциями", {
+            position: toast.POSITION.BOTTOM_RIGHT,
+            autoClose: 3000,
+            hideProgressBar: true,
+            closeButton: false,
+            className: "custom-toast",
+        });
     };
+
 
     return (
         <Container>
@@ -37,10 +47,7 @@ const Main = ({ products }) => {
                     />
                 ))}
             </Row>
-            <footer className="mt-5 text-end">
-                <p>Общая сумма заказа: {totalPrice} RUB</p>
-                <p>Количество товаров в корзине: {cartItems.length}</p>
-            </footer>
+            <ToastContainer />
         </Container>
     );
 };
