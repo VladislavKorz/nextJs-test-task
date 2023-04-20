@@ -18,7 +18,7 @@
     "title": "Nice White",
     "slug": "ekokozha-modern-nice-white",
     "price": 0,
-    "image": "/media/shop/color/image_854.png",
+    "image": "/media/shop/color/image_854.png"
   },
   {
     "id": 855,
@@ -67,6 +67,6 @@
     "title": "Nice Gray",
     "slug": "ekokozha-modern-nice-gray",
     "price": 6100,
-    "image": "/media/shop/color/image_858.jpg", 
+    "image": "/media/shop/color/image_858.jpg"
   }
 ]
