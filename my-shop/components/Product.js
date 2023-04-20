@@ -13,6 +13,11 @@ const Product = ({ product, onAddToCart }) => {
     }).format(price);
 
 
+    const handleAddToCart = () => {
+        setAddedToCart(true);
+        onAddToCart(product);
+    };
+
     return (
         <Col xs={6} md={4} lg={3}>
             <div className="position-relative mb-4">

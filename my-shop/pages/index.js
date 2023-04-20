@@ -10,6 +10,11 @@ const Main = ({ products }) => {
     const [cartItems, setCartItems] = useState([]); // Состояние для хранения добавленных товаров
     const [totalPrice, setTotalPrice] = useState(0); // Состояние для хранения суммы заказа
 
+    // Function to handle adding a product to the cart
+    const handleAddToCart = (product) => {
+        setCartItems([...cartItems, product]); // Add product to cart items state
+    };
+
     return (
         <Container>
             <header className="d-flex justify-content-between align-items-center py-3">
@@ -25,7 +30,11 @@ const Main = ({ products }) => {
             </header>
             <Row>
                 {products.map((product) => (
-                    <Product key={product.id} product={product}/>
+                    <Product
+                        key={product.id}
+                        product={product}
+                        onAddToCart={handleAddToCart}
+                    />
                 ))}
             </Row>
             <footer className="mt-5 text-end">
