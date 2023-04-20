@@ -1,0 +1,290 @@
+[
+    {
+        "id": 1,
+        "size": {
+            "length": 200,
+            "width": 160,
+            "percent_price": 0
+        }
+    },
+    {
+        "id": 2,
+        "size": {
+            "length": 200,
+            "width": 140,
+            "percent_price": -5
+        }
+    },
+    {
+        "id": 3,
+        "size": {
+            "length": 200,
+            "width": 180,
+            "percent_price": 15
+        }
+    },
+    {
+        "id": 5,
+        "size": {
+            "length": 200,
+            "width": 120,
+            "percent_price": -10
+        }
+    },
+    {
+        "id": 14,
+        "size": {
+            "length": 200,
+            "width": 200,
+            "percent_price": 30
+        }
+    },
+    {
+        "id": 19,
+        "size": {
+            "length": 200,
+            "width": 90,
+            "percent_price": -20
+        }
+    },
+    {
+        "id": 13,
+        "size": {
+            "length": 190,
+            "width": 200,
+            "percent_price": 22.5
+        }
+    },
+    {
+        "id": 18,
+        "size": {
+            "length": 190,
+            "width": 90,
+            "percent_price": -22
+        }
+    },
+    {
+        "id": 4,
+        "size": {
+            "length": 190,
+            "width": 120,
+            "percent_price": -12
+        }
+    },
+    {
+        "id": 6,
+        "size": {
+            "length": 210,
+            "width": 120,
+            "percent_price": -8
+        }
+    },
+    {
+        "id": 7,
+        "size": {
+            "length": 190,
+            "width": 140,
+            "percent_price": -7
+        }
+    },
+    {
+        "id": 8,
+        "size": {
+            "length": 210,
+            "width": 140,
+            "percent_price": -3
+        }
+    },
+    {
+        "id": 9,
+        "size": {
+            "length": 190,
+            "width": 160,
+            "percent_price": -2
+        }
+    },
+    {
+        "id": 10,
+        "size": {
+            "length": 210,
+            "width": 160,
+            "percent_price": 2
+        }
+    },
+    {
+        "id": 11,
+        "size": {
+            "length": 190,
+            "width": 180,
+            "percent_price": 13
+        }
+    },
+    {
+        "id": 12,
+        "size": {
+            "length": 210,
+            "width": 180,
+            "percent_price": 17
+        }
+    },
+    {
+        "id": 15,
+        "size": {
+            "length": 210,
+            "width": 200,
+            "percent_price": 32
+        }
+    },
+    {
+        "id": 16,
+        "size": {
+            "length": 190,
+            "width": 80,
+            "percent_price": -27
+        }
+    },
+    {
+        "id": 17,
+        "size": {
+            "length": 200,
+            "width": 80,
+            "percent_price": -25
+        }
+    },
+    {
+        "id": 108,
+        "size": {
+            "length": 190,
+            "width": 190,
+            "percent_price": 20.5
+        }
+    },
+    {
+        "id": 127,
+        "size": {
+            "length": 190,
+            "width": 110,
+            "percent_price": -17.01
+        }
+    },
+    {
+        "id": 128,
+        "size": {
+            "length": 190,
+            "width": 130,
+            "percent_price": -9.5
+        }
+    },
+    {
+        "id": 129,
+        "size": {
+            "length": 190,
+            "width": 150,
+            "percent_price": -4.5
+        }
+    },
+    {
+        "id": 130,
+        "size": {
+            "length": 190,
+            "width": 170,
+            "percent_price": 5.5
+        }
+    },
+    {
+        "id": 131,
+        "size": {
+            "length": 200,
+            "width": 110,
+            "percent_price": -15
+        }
+    },
+    {
+        "id": 132,
+        "size": {
+            "length": 200,
+            "width": 130,
+            "percent_price": -7.5
+        }
+    },
+    {
+        "id": 133,
+        "size": {
+            "length": 200,
+            "width": 150,
+            "percent_price": -2.5
+        }
+    },
+    {
+        "id": 134,
+        "size": {
+            "length": 200,
+            "width": 170,
+            "percent_price": 7.5
+        }
+    },
+    {
+        "id": 135,
+        "size": {
+            "length": 200,
+            "width": 190,
+            "percent_price": 22.5
+        }
+    },
+    {
+        "id": 136,
+        "size": {
+            "length": 210,
+            "width": 80,
+            "percent_price": -23
+        }
+    },
+    {
+        "id": 137,
+        "size": {
+            "length": 210,
+            "width": 90,
+            "percent_price": -18
+        }
+    },
+    {
+        "id": 138,
+        "size": {
+            "length": 210,
+            "width": 110,
+            "percent_price": -13
+        }
+    },
+    {
+        "id": 139,
+        "size": {
+            "length": 210,
+            "width": 130,
+            "percent_price": -5.5
+        }
+    },
+    {
+        "id": 140,
+        "size": {
+            "length": 210,
+            "width": 150,
+            "percent_price": -0.5
+        }
+    },
+    {
+        "id": 141,
+        "size": {
+            "length": 210,
+            "width": 170,
+            "percent_price": 9.5
+        }
+    },
+    {
+        "id": 142,
+        "size": {
+            "length": 210,
+            "width": 190,
+            "percent_price": 24.5
+        }
+    }
+]

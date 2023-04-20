@@ -1,0 +1,72 @@
+[
+  {
+    "id": 852,
+    "title": "Nice Beige",
+    "slug": "ekokozha-modern-nice-beige",
+    "price": 0,
+    "image": "/media/shop/color/image_852_NLZJyMf.png"
+  },
+  {
+    "id": 853,
+    "title": "Nice Red",
+    "slug": "ekokozha-modern-nice-red",
+    "price": 6100,
+    "image": "/media/shop/color/image_853.jpg"
+  },
+  {
+    "id": 854,
+    "title": "Nice White",
+    "slug": "ekokozha-modern-nice-white",
+    "price": 0,
+    "image": "/media/shop/color/image_854.png",
+  },
+  {
+    "id": 855,
+    "title": "Nice Black",
+    "slug": "ekokozha-modern-nice-black",
+    "price": "6100.00",
+    "image": "/media/shop/color/image_855.png"
+  },
+  {
+    "id": 856,
+    "title": "Nice Blue",
+    "slug": "ekokozha-modern-nice-blue",
+    "price": "6100.00",
+    "image": "/media/shop/color/image_856.png"
+  },
+  {
+    "id": 857,
+    "title": "Nice Choco",
+    "slug": "ekokozha-modern-nice-choco",
+    "price": 0,
+    "image": "/media/shop/color/image_857.png"
+  },
+  {
+    "id": 859,
+    "title": "Liker Navi",
+    "slug": "ekokozha-modern-liker-navi",
+    "price": "6100.00",
+    "image": "/media/shop/color/image_859.jpg"
+  },
+  {
+    "id": 860,
+    "title": "Liker White",
+    "slug": "ekokozha-modern-liker-white",
+    "price": 200,
+    "image": "/media/shop/color/image_860.jpg"
+  },
+  {
+    "id": 861,
+    "title": "Liker Gray",
+    "slug": "ekokozha-modern-liker-gray",
+    "price": 6100,
+    "image": "/media/shop/color/image_861.jpg"
+  },
+  {
+    "id": 858,
+    "title": "Nice Gray",
+    "slug": "ekokozha-modern-nice-gray",
+    "price": 6100,
+    "image": "/media/shop/color/image_858.jpg", 
+  }
+]
